@@ -8,7 +8,8 @@ body {
 }
 
 button {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
 }
 
 div {
