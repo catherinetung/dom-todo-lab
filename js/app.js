@@ -19,3 +19,8 @@ rst.addEventListener('click', function(evt2){
   input.value = ""
 })
 
+const rmItem = document.querySelector('ul')
+rmItem.addEventListener('click', function(evt3){
+  const rmLi = evt3.target
+  rmLi.remove()
+})
