@@ -16,11 +16,12 @@ const rst = document.getElementById('reset')
 rst.addEventListener('click', function(evt2){
   const oldList = document.querySelectorAll('li');
   oldList.forEach(todo => todo.remove())
-  input.value = ""
+  // input.value = "" - not sure why this is throwing an error in my code but removing it functionally still allows it to work, it just doesn't clear the input if something is there
 })
 
 const rmItem = document.querySelector('ul')
 rmItem.addEventListener('click', function(evt3){
   const rmLi = evt3.target
+  //when you console log evt3.target, clicking on the individual list item works to isolate li
   rmLi.remove()
 })

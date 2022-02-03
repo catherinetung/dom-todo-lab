@@ -1,0 +1,27 @@
+body {
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(233, 204, 209);
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+div {
+  display: inline;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul{
+  padding-left: 28%;
+}
